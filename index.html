@@ -13,13 +13,33 @@
             color: #1a1a1a;
         }
 
-        #background {
+        .background {
             background: #d8d8d8;
+        }
+
+        header {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 15px;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        ul {
+            padding: 0;
         }
     </style>
 </head>
 <body>
-    <header id="background">
+    <header class="background">
         <h1>MOPoli Travel Blog</h1>
         <nav>
             <ul>
@@ -30,7 +50,7 @@
         </nav>
     </header>
     <div>
-        <p>Hi, I'm MOPoli <br> Follow me on my journey around the <strong><em>world!.</em></strong></p>
+        <p class="background">Hi, I'm MOPoli <br> Follow me on my journey around the <strong><em>world!.</em></strong></p>
     </div>
 </body>
 </html>
